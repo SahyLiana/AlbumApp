@@ -1,0 +1,41 @@
+.card:hover > img {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.swiper-pagination {
+  position: absolute;
+  /* background-color: blue; */
+  width: 100% !important;
+  bottom: 0;
+}
+
+/* .swiper-wrapper {
+  position: relative;
+} */
+
+.swiper-pagination .swiper-pagination-bullet {
+  /* filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+   */
+  background-color: red;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: relative;
+  /* background-color: aqua; */
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
